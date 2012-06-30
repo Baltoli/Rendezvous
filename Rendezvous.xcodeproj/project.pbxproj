@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7069C5D159EFF2F00DDC29E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7069C5C159EFF2F00DDC29E /* UIKit.framework */; };
+		F7069C5F159EFF2F00DDC29E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7069C5E159EFF2F00DDC29E /* Foundation.framework */; };
+		F7069C61159EFF2F00DDC29E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7069C60159EFF2F00DDC29E /* CoreGraphics.framework */; };
+		F7069C67159EFF2F00DDC29E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7069C65159EFF2F00DDC29E /* InfoPlist.strings */; };
+		F7069C69159EFF2F00DDC29E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069C68159EFF2F00DDC29E /* main.m */; };
+		F7069C6D159EFF2F00DDC29E /* BSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069C6C159EFF2F00DDC29E /* BSCAppDelegate.m */; };
+		F7069C70159EFF2F00DDC29E /* BSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069C6F159EFF2F00DDC29E /* BSCViewController.m */; };
+		F7069C73159EFF2F00DDC29E /* BSCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7069C71159EFF2F00DDC29E /* BSCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7069C58159EFF2F00DDC29E /* Rendezvous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rendezvous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7069C5C159EFF2F00DDC29E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7069C5E159EFF2F00DDC29E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7069C60159EFF2F00DDC29E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7069C64159EFF2F00DDC29E /* Rendezvous-Info.plist */ = {isa = PBXFileReference; path = "Rendezvous-Info.plist"; sourceTree = "<group>"; };
+		F7069C66159EFF2F00DDC29E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7069C68159EFF2F00DDC29E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7069C6A159EFF2F00DDC29E /* Rendezvous-Prefix.pch */ = {isa = PBXFileReference; path = "Rendezvous-Prefix.pch"; sourceTree = "<group>"; };
+		F7069C6B159EFF2F00DDC29E /* BSCAppDelegate.h */ = {isa = PBXFileReference; path = BSCAppDelegate.h; sourceTree = "<group>"; };
+		F7069C6C159EFF2F00DDC29E /* BSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCAppDelegate.m; sourceTree = "<group>"; };
+		F7069C6E159EFF2F00DDC29E /* BSCViewController.h */ = {isa = PBXFileReference; path = BSCViewController.h; sourceTree = "<group>"; };
+		F7069C6F159EFF2F00DDC29E /* BSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCViewController.m; sourceTree = "<group>"; };
+		F7069C72159EFF2F00DDC29E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7069C55159EFF2F00DDC29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7069C5D159EFF2F00DDC29E /* UIKit.framework in Frameworks */,
+				F7069C5F159EFF2F00DDC29E /* Foundation.framework in Frameworks */,
+				F7069C61159EFF2F00DDC29E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7069C4D159EFF2F00DDC29E = {
+			isa = PBXGroup;
+			children = (
+				F7069C62159EFF2F00DDC29E /* Rendezvous */,
+				F7069C5B159EFF2F00DDC29E /* Frameworks */,
+				F7069C59159EFF2F00DDC29E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7069C59159EFF2F00DDC29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7069C58159EFF2F00DDC29E /* Rendezvous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7069C5B159EFF2F00DDC29E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7069C5C159EFF2F00DDC29E /* UIKit.framework */,
+				F7069C5E159EFF2F00DDC29E /* Foundation.framework */,
+				F7069C60159EFF2F00DDC29E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7069C62159EFF2F00DDC29E /* Rendezvous */ = {
+			isa = PBXGroup;
+			children = (
+				F7069C6B159EFF2F00DDC29E /* BSCAppDelegate.h */,
+				F7069C6C159EFF2F00DDC29E /* BSCAppDelegate.m */,
+				F7069C6E159EFF2F00DDC29E /* BSCViewController.h */,
+				F7069C6F159EFF2F00DDC29E /* BSCViewController.m */,
+				F7069C71159EFF2F00DDC29E /* BSCViewController.xib */,
+				F7069C63159EFF2F00DDC29E /* Supporting Files */,
+			);
+			path = Rendezvous;
+			sourceTree = "<group>";
+		};
+		F7069C63159EFF2F00DDC29E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7069C64159EFF2F00DDC29E /* Rendezvous-Info.plist */,
+				F7069C65159EFF2F00DDC29E /* InfoPlist.strings */,
+				F7069C68159EFF2F00DDC29E /* main.m */,
+				F7069C6A159EFF2F00DDC29E /* Rendezvous-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7069C57159EFF2F00DDC29E /* Rendezvous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7069C76159EFF2F00DDC29E /* Build configuration list for PBXNativeTarget "Rendezvous" */;
+			buildPhases = (
+				F7069C54159EFF2F00DDC29E /* Sources */,
+				F7069C55159EFF2F00DDC29E /* Frameworks */,
+				F7069C56159EFF2F00DDC29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rendezvous;
+			productName = Rendezvous;
+			productReference = F7069C58159EFF2F00DDC29E /* Rendezvous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7069C4F159EFF2F00DDC29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Balerno High School";
+			};
+			buildConfigurationList = F7069C52159EFF2F00DDC29E /* Build configuration list for PBXProject "Rendezvous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7069C4D159EFF2F00DDC29E;
+			productRefGroup = F7069C59159EFF2F00DDC29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7069C57159EFF2F00DDC29E /* Rendezvous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7069C56159EFF2F00DDC29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7069C67159EFF2F00DDC29E /* InfoPlist.strings in Resources */,
+				F7069C73159EFF2F00DDC29E /* BSCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7069C54159EFF2F00DDC29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7069C69159EFF2F00DDC29E /* main.m in Sources */,
+				F7069C6D159EFF2F00DDC29E /* BSCAppDelegate.m in Sources */,
+				F7069C70159EFF2F00DDC29E /* BSCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7069C65159EFF2F00DDC29E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7069C66159EFF2F00DDC29E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7069C71159EFF2F00DDC29E /* BSCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7069C72159EFF2F00DDC29E /* en */,
+			);
+			name = BSCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7069C74159EFF2F00DDC29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7069C75159EFF2F00DDC29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7069C77159EFF2F00DDC29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rendezvous/Rendezvous-Prefix.pch";
+				INFOPLIST_FILE = "Rendezvous/Rendezvous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7069C78159EFF2F00DDC29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rendezvous/Rendezvous-Prefix.pch";
+				INFOPLIST_FILE = "Rendezvous/Rendezvous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7069C52159EFF2F00DDC29E /* Build configuration list for PBXProject "Rendezvous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7069C74159EFF2F00DDC29E /* Debug */,
+				F7069C75159EFF2F00DDC29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7069C76159EFF2F00DDC29E /* Build configuration list for PBXNativeTarget "Rendezvous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7069C77159EFF2F00DDC29E /* Debug */,
+				F7069C78159EFF2F00DDC29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7069C4F159EFF2F00DDC29E /* Project object */;
+}
