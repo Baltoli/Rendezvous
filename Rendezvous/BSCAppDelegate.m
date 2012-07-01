@@ -7,8 +7,10 @@
 //
 
 #import "BSCAppDelegate.h"
-
+#import <Parse/Parse.h>
 #import "BSCViewController.h"
+#import "NSString+MD5.h"
+#import "Utilities.h"
 
 @implementation BSCAppDelegate
 
@@ -17,10 +19,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Parse setApplicationId:@"mVi4YTWyPwowDMi65MNilKy6YWJoYrHF5th2CsIY"
+                  clientKey:@"sH9EaQuylyjOpMbp20WHkGUImkwXef8nX75Cf9ZW"];
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults objectForKey:@"userpin"] == nil) {
+        double time = [[[NSDate alloc] init] timeIntervalSince1970];
+        NSString* pin = [[NSString stringWithFormat:@"%f", time] MD5];
+        pin = [NSString stringWithFormat:@"%@%@", pin, [Utilities genRandStringLength:8]];
+        pin = [pin substringToIndex:8];
+        [defaults setObject:pin forKey:@"userpin"];
+        [defaults synchronize];
+    }
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[BSCViewController alloc] initWithNibName:@"BSCViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    UINavigationController* navcon = [[UINavigationController alloc] init];
+    navcon.navigationBar.tintColor = UIColorFromRGB(0x0099cc);
+    [navcon pushViewController:self.viewController animated:NO];
+    self.window.rootViewController = navcon;
     [self.window makeKeyAndVisible];
     return YES;
 }

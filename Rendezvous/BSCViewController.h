@@ -10,4 +10,8 @@
 
 @interface BSCViewController : UIViewController
 
+- (IBAction)createButtonPressed:(id)sender;
+- (IBAction)shareLocation:(id)sender;
+- (IBAction)findFriends:(id)sender;
+- (IBAction)findWaypoint:(id)sender;
 @end

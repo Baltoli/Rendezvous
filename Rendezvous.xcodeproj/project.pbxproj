@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F702E60E159FA5BE004A189E /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = F702E60D159FA5BE004A189E /* NSString+MD5.m */; };
 		F7069C5D159EFF2F00DDC29E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7069C5C159EFF2F00DDC29E /* UIKit.framework */; };
 		F7069C5F159EFF2F00DDC29E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7069C5E159EFF2F00DDC29E /* Foundation.framework */; };
 		F7069C61159EFF2F00DDC29E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7069C60159EFF2F00DDC29E /* CoreGraphics.framework */; };
@@ -15,22 +16,128 @@
 		F7069C6D159EFF2F00DDC29E /* BSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069C6C159EFF2F00DDC29E /* BSCAppDelegate.m */; };
 		F7069C70159EFF2F00DDC29E /* BSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069C6F159EFF2F00DDC29E /* BSCViewController.m */; };
 		F7069C73159EFF2F00DDC29E /* BSCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7069C71159EFF2F00DDC29E /* BSCViewController.xib */; };
+		F7069C82159EFFF600DDC29E /* find_event_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C79159EFFF600DDC29E /* find_event_pressed.png */; };
+		F7069C83159EFFF600DDC29E /* find_event.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C7A159EFFF600DDC29E /* find_event.png */; };
+		F7069C84159EFFF600DDC29E /* find_friend_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C7B159EFFF600DDC29E /* find_friend_pressed.png */; };
+		F7069C85159EFFF600DDC29E /* find_friend.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C7C159EFFF600DDC29E /* find_friend.png */; };
+		F7069C86159EFFF600DDC29E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C7D159EFFF600DDC29E /* logo.png */; };
+		F7069C87159EFFF600DDC29E /* map_view_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C7E159EFFF600DDC29E /* map_view_pressed.png */; };
+		F7069C88159EFFF600DDC29E /* map_view.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C7F159EFFF600DDC29E /* map_view.png */; };
+		F7069C89159EFFF600DDC29E /* new_event_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C80159EFFF600DDC29E /* new_event_pressed.png */; };
+		F7069C8A159EFFF600DDC29E /* new_event.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C81159EFFF600DDC29E /* new_event.png */; };
+		F7069C8D159F040400DDC29E /* logo_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069C8C159F040400DDC29E /* logo_transparent.png */; };
+		F7069C91159F0B2900DDC29E /* BSCCreateWaypointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069C8F159F0B2900DDC29E /* BSCCreateWaypointViewController.m */; };
+		F7069C92159F0B2900DDC29E /* BSCCreateWaypointViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7069C90159F0B2900DDC29E /* BSCCreateWaypointViewController.xib */; };
+		F7069F6C159F266200DDC29E /* 7-location-map.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069F69159F266200DDC29E /* 7-location-map.png */; };
+		F7069F6D159F266200DDC29E /* 7-location-place.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069F6A159F266200DDC29E /* 7-location-place.png */; };
+		F7069F6E159F266200DDC29E /* 10-device-access-location-found.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069F6B159F266200DDC29E /* 10-device-access-location-found.png */; };
+		F7069F72159F2EC100DDC29E /* EnterMyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069F70159F2EC100DDC29E /* EnterMyLocation.m */; };
+		F7069F73159F2EC100DDC29E /* EnterMyLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7069F71159F2EC100DDC29E /* EnterMyLocation.xib */; };
+		F7069F77159F2FBB00DDC29E /* EnterAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069F75159F2FBB00DDC29E /* EnterAddress.m */; };
+		F7069F78159F2FBB00DDC29E /* EnterAddress.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7069F76159F2FBB00DDC29E /* EnterAddress.xib */; };
+		F7069F7C159F30DF00DDC29E /* EnterCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069F7A159F30DF00DDC29E /* EnterCoordinates.m */; };
+		F7069F7D159F30DF00DDC29E /* EnterCoordinates.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7069F7B159F30DF00DDC29E /* EnterCoordinates.xib */; };
+		F7069F83159F3AFD00DDC29E /* ShowPIN.m in Sources */ = {isa = PBXBuildFile; fileRef = F7069F81159F3AFD00DDC29E /* ShowPIN.m */; };
+		F7069F84159F3AFD00DDC29E /* ShowPIN.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7069F82159F3AFD00DDC29E /* ShowPIN.xib */; };
+		F7069F86159F463300DDC29E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = F7069F85159F463300DDC29E /* button.png */; };
+		F7069F88159F473700DDC29E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7069F87159F473700DDC29E /* CoreLocation.framework */; };
+		F73C8D3C159F61BE001C0151 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8D3B159F61BE001C0151 /* Parse.framework */; };
+		F73C8D3F159F61E0001C0151 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8D3E159F61E0001C0151 /* AudioToolbox.framework */; };
+		F73C8D41159F61E6001C0151 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8D40159F61E6001C0151 /* CFNetwork.framework */; };
+		F73C8D43159F61EE001C0151 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8D42159F61EE001C0151 /* SystemConfiguration.framework */; };
+		F73C8D45159F61F8001C0151 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8D44159F61F8001C0151 /* MobileCoreServices.framework */; };
+		F73C8D47159F620B001C0151 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8D46159F620B001C0151 /* libz.1.1.3.dylib */; };
+		F73C8D49159F6212001C0151 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8D48159F6212001C0151 /* Security.framework */; };
+		F73C8D4B159F621A001C0151 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8D4A159F621A001C0151 /* QuartzCore.framework */; };
+		F73C8D51159F62B1001C0151 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F73C8D50159F62B1001C0151 /* Utilities.m */; };
+		F77DD512159FE9E400C74932 /* FindFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = F77DD510159FE9E400C74932 /* FindFriends.m */; };
+		F77DD513159FE9E400C74932 /* FindFriends.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77DD511159FE9E400C74932 /* FindFriends.xib */; };
+		F77DD518159FEAF700C74932 /* FindWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F77DD516159FEAF700C74932 /* FindWaypoint.m */; };
+		F77DD519159FEAF700C74932 /* FindWaypoint.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77DD517159FEAF700C74932 /* FindWaypoint.xib */; };
+		F77DD51D159FECB700C74932 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F77DD51B159FECB700C74932 /* MapView.m */; };
+		F77DD51E159FECB700C74932 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77DD51C159FECB700C74932 /* MapView.xib */; };
+		F77DD520159FEFA100C74932 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77DD51F159FEFA100C74932 /* MapKit.framework */; };
+		F77DD523159FFA1D00C74932 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = F77DD522159FFA1D00C74932 /* MKMapView+ZoomLevel.m */; };
+		F77DD52815A003B600C74932 /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = F77DD52615A003B500C74932 /* About.m */; };
+		F77DD52915A003B600C74932 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77DD52715A003B500C74932 /* About.xib */; };
+		F7F93580159FD5E40005B508 /* ShareLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F9357E159FD5E40005B508 /* ShareLocationViewController.m */; };
+		F7F93581159FD5E40005B508 /* ShareLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F9357F159FD5E40005B508 /* ShareLocationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F702E60C159FA5BE004A189E /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "Rendezvous/NSString+MD5.h"; sourceTree = SOURCE_ROOT; };
+		F702E60D159FA5BE004A189E /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		F7069C58159EFF2F00DDC29E /* Rendezvous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rendezvous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7069C5C159EFF2F00DDC29E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F7069C5E159EFF2F00DDC29E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7069C60159EFF2F00DDC29E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F7069C64159EFF2F00DDC29E /* Rendezvous-Info.plist */ = {isa = PBXFileReference; path = "Rendezvous-Info.plist"; sourceTree = "<group>"; };
+		F7069C64159EFF2F00DDC29E /* Rendezvous-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rendezvous-Info.plist"; sourceTree = "<group>"; };
 		F7069C66159EFF2F00DDC29E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F7069C68159EFF2F00DDC29E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F7069C6A159EFF2F00DDC29E /* Rendezvous-Prefix.pch */ = {isa = PBXFileReference; path = "Rendezvous-Prefix.pch"; sourceTree = "<group>"; };
-		F7069C6B159EFF2F00DDC29E /* BSCAppDelegate.h */ = {isa = PBXFileReference; path = BSCAppDelegate.h; sourceTree = "<group>"; };
+		F7069C6A159EFF2F00DDC29E /* Rendezvous-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rendezvous-Prefix.pch"; sourceTree = "<group>"; };
+		F7069C6B159EFF2F00DDC29E /* BSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSCAppDelegate.h; sourceTree = "<group>"; };
 		F7069C6C159EFF2F00DDC29E /* BSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCAppDelegate.m; sourceTree = "<group>"; };
-		F7069C6E159EFF2F00DDC29E /* BSCViewController.h */ = {isa = PBXFileReference; path = BSCViewController.h; sourceTree = "<group>"; };
+		F7069C6E159EFF2F00DDC29E /* BSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSCViewController.h; sourceTree = "<group>"; };
 		F7069C6F159EFF2F00DDC29E /* BSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCViewController.m; sourceTree = "<group>"; };
 		F7069C72159EFF2F00DDC29E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BSCViewController.xib; sourceTree = "<group>"; };
+		F7069C79159EFFF600DDC29E /* find_event_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = find_event_pressed.png; path = ../../../../Downloads/rendezvous/find_event_pressed.png; sourceTree = "<group>"; };
+		F7069C7A159EFFF600DDC29E /* find_event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = find_event.png; path = ../../../../Downloads/rendezvous/find_event.png; sourceTree = "<group>"; };
+		F7069C7B159EFFF600DDC29E /* find_friend_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = find_friend_pressed.png; path = ../../../../Downloads/rendezvous/find_friend_pressed.png; sourceTree = "<group>"; };
+		F7069C7C159EFFF600DDC29E /* find_friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = find_friend.png; path = ../../../../Downloads/rendezvous/find_friend.png; sourceTree = "<group>"; };
+		F7069C7D159EFFF600DDC29E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/rendezvous/logo.png; sourceTree = "<group>"; };
+		F7069C7E159EFFF600DDC29E /* map_view_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_view_pressed.png; path = ../../../../Downloads/rendezvous/map_view_pressed.png; sourceTree = "<group>"; };
+		F7069C7F159EFFF600DDC29E /* map_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map_view.png; path = ../../../../Downloads/rendezvous/map_view.png; sourceTree = "<group>"; };
+		F7069C80159EFFF600DDC29E /* new_event_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_event_pressed.png; path = ../../../../Downloads/rendezvous/new_event_pressed.png; sourceTree = "<group>"; };
+		F7069C81159EFFF600DDC29E /* new_event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_event.png; path = ../../../../Downloads/rendezvous/new_event.png; sourceTree = "<group>"; };
+		F7069C8C159F040400DDC29E /* logo_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_transparent.png; path = ../../../../Downloads/logo_transparent.png; sourceTree = "<group>"; };
+		F7069C8E159F0B2900DDC29E /* BSCCreateWaypointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCCreateWaypointViewController.h; sourceTree = "<group>"; };
+		F7069C8F159F0B2900DDC29E /* BSCCreateWaypointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCCreateWaypointViewController.m; sourceTree = "<group>"; };
+		F7069C90159F0B2900DDC29E /* BSCCreateWaypointViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSCCreateWaypointViewController.xib; sourceTree = "<group>"; };
+		F7069F69159F266200DDC29E /* 7-location-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7-location-map.png"; path = "../../../../Downloads/7-location-map.png"; sourceTree = "<group>"; };
+		F7069F6A159F266200DDC29E /* 7-location-place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7-location-place.png"; path = "../../../../Downloads/7-location-place.png"; sourceTree = "<group>"; };
+		F7069F6B159F266200DDC29E /* 10-device-access-location-found.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "10-device-access-location-found.png"; path = "../../../../Downloads/10-device-access-location-found.png"; sourceTree = "<group>"; };
+		F7069F6F159F2EC100DDC29E /* EnterMyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterMyLocation.h; sourceTree = "<group>"; };
+		F7069F70159F2EC100DDC29E /* EnterMyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterMyLocation.m; sourceTree = "<group>"; };
+		F7069F71159F2EC100DDC29E /* EnterMyLocation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterMyLocation.xib; sourceTree = "<group>"; };
+		F7069F74159F2FBB00DDC29E /* EnterAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAddress.h; sourceTree = "<group>"; };
+		F7069F75159F2FBB00DDC29E /* EnterAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAddress.m; sourceTree = "<group>"; };
+		F7069F76159F2FBB00DDC29E /* EnterAddress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterAddress.xib; sourceTree = "<group>"; };
+		F7069F79159F30DF00DDC29E /* EnterCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterCoordinates.h; sourceTree = "<group>"; };
+		F7069F7A159F30DF00DDC29E /* EnterCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterCoordinates.m; sourceTree = "<group>"; };
+		F7069F7B159F30DF00DDC29E /* EnterCoordinates.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterCoordinates.xib; sourceTree = "<group>"; };
+		F7069F80159F3AFC00DDC29E /* ShowPIN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPIN.h; sourceTree = "<group>"; };
+		F7069F81159F3AFD00DDC29E /* ShowPIN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPIN.m; sourceTree = "<group>"; };
+		F7069F82159F3AFD00DDC29E /* ShowPIN.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowPIN.xib; sourceTree = "<group>"; };
+		F7069F85159F463300DDC29E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../../../Downloads/button.png; sourceTree = "<group>"; };
+		F7069F87159F473700DDC29E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F73C8D3B159F61BE001C0151 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F73C8D3E159F61E0001C0151 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F73C8D40159F61E6001C0151 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F73C8D42159F61EE001C0151 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F73C8D44159F61F8001C0151 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F73C8D46159F620B001C0151 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		F73C8D48159F6212001C0151 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F73C8D4A159F621A001C0151 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F73C8D4F159F62B1001C0151 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		F73C8D50159F62B1001C0151 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		F77DD50F159FE9E400C74932 /* FindFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFriends.h; sourceTree = "<group>"; };
+		F77DD510159FE9E400C74932 /* FindFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFriends.m; sourceTree = "<group>"; };
+		F77DD511159FE9E400C74932 /* FindFriends.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindFriends.xib; sourceTree = "<group>"; };
+		F77DD515159FEAF700C74932 /* FindWaypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindWaypoint.h; sourceTree = "<group>"; };
+		F77DD516159FEAF700C74932 /* FindWaypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindWaypoint.m; sourceTree = "<group>"; };
+		F77DD517159FEAF700C74932 /* FindWaypoint.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindWaypoint.xib; sourceTree = "<group>"; };
+		F77DD51A159FECB700C74932 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		F77DD51B159FECB700C74932 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		F77DD51C159FECB700C74932 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		F77DD51F159FEFA100C74932 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F77DD521159FFA1C00C74932 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		F77DD522159FFA1D00C74932 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		F77DD52515A003B500C74932 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		F77DD52615A003B500C74932 /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
+		F77DD52715A003B500C74932 /* About.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		F7F9357D159FD5E40005B508 /* ShareLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareLocationViewController.h; sourceTree = "<group>"; };
+		F7F9357E159FD5E40005B508 /* ShareLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareLocationViewController.m; sourceTree = "<group>"; };
+		F7F9357F159FD5E40005B508 /* ShareLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareLocationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +145,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77DD520159FEFA100C74932 /* MapKit.framework in Frameworks */,
+				F73C8D4B159F621A001C0151 /* QuartzCore.framework in Frameworks */,
+				F73C8D49159F6212001C0151 /* Security.framework in Frameworks */,
+				F73C8D47159F620B001C0151 /* libz.1.1.3.dylib in Frameworks */,
+				F7069C61159EFF2F00DDC29E /* CoreGraphics.framework in Frameworks */,
+				F73C8D45159F61F8001C0151 /* MobileCoreServices.framework in Frameworks */,
+				F73C8D43159F61EE001C0151 /* SystemConfiguration.framework in Frameworks */,
+				F73C8D41159F61E6001C0151 /* CFNetwork.framework in Frameworks */,
+				F73C8D3F159F61E0001C0151 /* AudioToolbox.framework in Frameworks */,
+				F7069F88159F473700DDC29E /* CoreLocation.framework in Frameworks */,
 				F7069C5D159EFF2F00DDC29E /* UIKit.framework in Frameworks */,
 				F7069C5F159EFF2F00DDC29E /* Foundation.framework in Frameworks */,
-				F7069C61159EFF2F00DDC29E /* CoreGraphics.framework in Frameworks */,
+				F73C8D3C159F61BE001C0151 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +184,16 @@
 		F7069C5B159EFF2F00DDC29E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F77DD51F159FEFA100C74932 /* MapKit.framework */,
+				F73C8D4A159F621A001C0151 /* QuartzCore.framework */,
+				F73C8D48159F6212001C0151 /* Security.framework */,
+				F73C8D46159F620B001C0151 /* libz.1.1.3.dylib */,
+				F73C8D44159F61F8001C0151 /* MobileCoreServices.framework */,
+				F73C8D42159F61EE001C0151 /* SystemConfiguration.framework */,
+				F73C8D40159F61E6001C0151 /* CFNetwork.framework */,
+				F73C8D3E159F61E0001C0151 /* AudioToolbox.framework */,
+				F73C8D3B159F61BE001C0151 /* Parse.framework */,
+				F7069F87159F473700DDC29E /* CoreLocation.framework */,
 				F7069C5C159EFF2F00DDC29E /* UIKit.framework */,
 				F7069C5E159EFF2F00DDC29E /* Foundation.framework */,
 				F7069C60159EFF2F00DDC29E /* CoreGraphics.framework */,
@@ -77,11 +204,11 @@
 		F7069C62159EFF2F00DDC29E /* Rendezvous */ = {
 			isa = PBXGroup;
 			children = (
-				F7069C6B159EFF2F00DDC29E /* BSCAppDelegate.h */,
-				F7069C6C159EFF2F00DDC29E /* BSCAppDelegate.m */,
-				F7069C6E159EFF2F00DDC29E /* BSCViewController.h */,
-				F7069C6F159EFF2F00DDC29E /* BSCViewController.m */,
-				F7069C71159EFF2F00DDC29E /* BSCViewController.xib */,
+				F7069F7F159F31A500DDC29E /* Waypoint Creation */,
+				F77DD524159FFA5900C74932 /* Categories */,
+				F77DD52A15A008A400C74932 /* View Controllers */,
+				F7069F7E159F318B00DDC29E /* XIBs */,
+				F7069C8B159EFFFD00DDC29E /* Images */,
 				F7069C63159EFF2F00DDC29E /* Supporting Files */,
 			);
 			path = Rendezvous;
@@ -90,12 +217,102 @@
 		F7069C63159EFF2F00DDC29E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F7069C6B159EFF2F00DDC29E /* BSCAppDelegate.h */,
+				F7069C6C159EFF2F00DDC29E /* BSCAppDelegate.m */,
+				F73C8D4F159F62B1001C0151 /* Utilities.h */,
+				F73C8D50159F62B1001C0151 /* Utilities.m */,
 				F7069C64159EFF2F00DDC29E /* Rendezvous-Info.plist */,
 				F7069C65159EFF2F00DDC29E /* InfoPlist.strings */,
 				F7069C68159EFF2F00DDC29E /* main.m */,
 				F7069C6A159EFF2F00DDC29E /* Rendezvous-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7069C8B159EFFFD00DDC29E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F7069F85159F463300DDC29E /* button.png */,
+				F7069F69159F266200DDC29E /* 7-location-map.png */,
+				F7069F6A159F266200DDC29E /* 7-location-place.png */,
+				F7069F6B159F266200DDC29E /* 10-device-access-location-found.png */,
+				F7069C8C159F040400DDC29E /* logo_transparent.png */,
+				F7069C79159EFFF600DDC29E /* find_event_pressed.png */,
+				F7069C7A159EFFF600DDC29E /* find_event.png */,
+				F7069C7B159EFFF600DDC29E /* find_friend_pressed.png */,
+				F7069C7C159EFFF600DDC29E /* find_friend.png */,
+				F7069C7D159EFFF600DDC29E /* logo.png */,
+				F7069C7E159EFFF600DDC29E /* map_view_pressed.png */,
+				F7069C7F159EFFF600DDC29E /* map_view.png */,
+				F7069C80159EFFF600DDC29E /* new_event_pressed.png */,
+				F7069C81159EFFF600DDC29E /* new_event.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F7069F7E159F318B00DDC29E /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				F77DD52715A003B500C74932 /* About.xib */,
+				F77DD517159FEAF700C74932 /* FindWaypoint.xib */,
+				F77DD51C159FECB700C74932 /* MapView.xib */,
+				F77DD511159FE9E400C74932 /* FindFriends.xib */,
+				F7069F82159F3AFD00DDC29E /* ShowPIN.xib */,
+				F7069F7B159F30DF00DDC29E /* EnterCoordinates.xib */,
+				F7069C90159F0B2900DDC29E /* BSCCreateWaypointViewController.xib */,
+				F7069F76159F2FBB00DDC29E /* EnterAddress.xib */,
+				F7069F71159F2EC100DDC29E /* EnterMyLocation.xib */,
+				F7069C71159EFF2F00DDC29E /* BSCViewController.xib */,
+				F7F9357F159FD5E40005B508 /* ShareLocationViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		F7069F7F159F31A500DDC29E /* Waypoint Creation */ = {
+			isa = PBXGroup;
+			children = (
+				F7069F6F159F2EC100DDC29E /* EnterMyLocation.h */,
+				F7069F70159F2EC100DDC29E /* EnterMyLocation.m */,
+				F7069F79159F30DF00DDC29E /* EnterCoordinates.h */,
+				F7069F7A159F30DF00DDC29E /* EnterCoordinates.m */,
+				F7069F74159F2FBB00DDC29E /* EnterAddress.h */,
+				F7069F75159F2FBB00DDC29E /* EnterAddress.m */,
+			);
+			name = "Waypoint Creation";
+			sourceTree = "<group>";
+		};
+		F77DD524159FFA5900C74932 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F702E60C159FA5BE004A189E /* NSString+MD5.h */,
+				F702E60D159FA5BE004A189E /* NSString+MD5.m */,
+				F77DD521159FFA1C00C74932 /* MKMapView+ZoomLevel.h */,
+				F77DD522159FFA1D00C74932 /* MKMapView+ZoomLevel.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		F77DD52A15A008A400C74932 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7069C6E159EFF2F00DDC29E /* BSCViewController.h */,
+				F7069C6F159EFF2F00DDC29E /* BSCViewController.m */,
+				F77DD515159FEAF700C74932 /* FindWaypoint.h */,
+				F77DD516159FEAF700C74932 /* FindWaypoint.m */,
+				F77DD52515A003B500C74932 /* About.h */,
+				F77DD52615A003B500C74932 /* About.m */,
+				F7069C8E159F0B2900DDC29E /* BSCCreateWaypointViewController.h */,
+				F7069C8F159F0B2900DDC29E /* BSCCreateWaypointViewController.m */,
+				F7069F80159F3AFC00DDC29E /* ShowPIN.h */,
+				F7069F81159F3AFD00DDC29E /* ShowPIN.m */,
+				F7F9357D159FD5E40005B508 /* ShareLocationViewController.h */,
+				F7F9357E159FD5E40005B508 /* ShareLocationViewController.m */,
+				F77DD50F159FE9E400C74932 /* FindFriends.h */,
+				F77DD510159FE9E400C74932 /* FindFriends.m */,
+				F77DD51A159FECB700C74932 /* MapView.h */,
+				F77DD51B159FECB700C74932 /* MapView.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +369,30 @@
 			files = (
 				F7069C67159EFF2F00DDC29E /* InfoPlist.strings in Resources */,
 				F7069C73159EFF2F00DDC29E /* BSCViewController.xib in Resources */,
+				F7069C82159EFFF600DDC29E /* find_event_pressed.png in Resources */,
+				F7069C83159EFFF600DDC29E /* find_event.png in Resources */,
+				F7069C84159EFFF600DDC29E /* find_friend_pressed.png in Resources */,
+				F7069C85159EFFF600DDC29E /* find_friend.png in Resources */,
+				F7069C86159EFFF600DDC29E /* logo.png in Resources */,
+				F7069C87159EFFF600DDC29E /* map_view_pressed.png in Resources */,
+				F7069C88159EFFF600DDC29E /* map_view.png in Resources */,
+				F7069C89159EFFF600DDC29E /* new_event_pressed.png in Resources */,
+				F7069C8A159EFFF600DDC29E /* new_event.png in Resources */,
+				F7069C8D159F040400DDC29E /* logo_transparent.png in Resources */,
+				F7069C92159F0B2900DDC29E /* BSCCreateWaypointViewController.xib in Resources */,
+				F7069F6C159F266200DDC29E /* 7-location-map.png in Resources */,
+				F7069F6D159F266200DDC29E /* 7-location-place.png in Resources */,
+				F7069F6E159F266200DDC29E /* 10-device-access-location-found.png in Resources */,
+				F7069F73159F2EC100DDC29E /* EnterMyLocation.xib in Resources */,
+				F7069F78159F2FBB00DDC29E /* EnterAddress.xib in Resources */,
+				F7069F7D159F30DF00DDC29E /* EnterCoordinates.xib in Resources */,
+				F7069F84159F3AFD00DDC29E /* ShowPIN.xib in Resources */,
+				F7069F86159F463300DDC29E /* button.png in Resources */,
+				F7F93581159FD5E40005B508 /* ShareLocationViewController.xib in Resources */,
+				F77DD513159FE9E400C74932 /* FindFriends.xib in Resources */,
+				F77DD519159FEAF700C74932 /* FindWaypoint.xib in Resources */,
+				F77DD51E159FECB700C74932 /* MapView.xib in Resources */,
+				F77DD52915A003B600C74932 /* About.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +406,19 @@
 				F7069C69159EFF2F00DDC29E /* main.m in Sources */,
 				F7069C6D159EFF2F00DDC29E /* BSCAppDelegate.m in Sources */,
 				F7069C70159EFF2F00DDC29E /* BSCViewController.m in Sources */,
+				F7069C91159F0B2900DDC29E /* BSCCreateWaypointViewController.m in Sources */,
+				F7069F72159F2EC100DDC29E /* EnterMyLocation.m in Sources */,
+				F7069F77159F2FBB00DDC29E /* EnterAddress.m in Sources */,
+				F7069F7C159F30DF00DDC29E /* EnterCoordinates.m in Sources */,
+				F7069F83159F3AFD00DDC29E /* ShowPIN.m in Sources */,
+				F73C8D51159F62B1001C0151 /* Utilities.m in Sources */,
+				F702E60E159FA5BE004A189E /* NSString+MD5.m in Sources */,
+				F7F93580159FD5E40005B508 /* ShareLocationViewController.m in Sources */,
+				F77DD512159FE9E400C74932 /* FindFriends.m in Sources */,
+				F77DD518159FEAF700C74932 /* FindWaypoint.m in Sources */,
+				F77DD51D159FECB700C74932 /* MapView.m in Sources */,
+				F77DD523159FFA1D00C74932 /* MKMapView+ZoomLevel.m in Sources */,
+				F77DD52815A003B600C74932 /* About.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +492,11 @@
 		F7069C77159EFF2F00DDC29E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/ParseStarterProject\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rendezvous/Rendezvous-Prefix.pch";
 				INFOPLIST_FILE = "Rendezvous/Rendezvous-Info.plist";
@@ -249,6 +508,11 @@
 		F7069C78159EFF2F00DDC29E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/ParseStarterProject\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rendezvous/Rendezvous-Prefix.pch";
 				INFOPLIST_FILE = "Rendezvous/Rendezvous-Info.plist";
@@ -276,6 +540,7 @@
 				F7069C78159EFF2F00DDC29E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
