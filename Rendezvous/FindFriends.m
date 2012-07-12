@@ -53,7 +53,7 @@
 - (IBAction)findFriends:(id)sender {
     PFQuery* query = [PFQuery queryWithClassName:@"Waypoints"];
     [query whereKey:@"pin" equalTo:[pinEntry text]];
-    [query whereKey:@"type" equalTo:@"individual"];
+    //[query whereKey:@"type" equalTo:@"individual"];
     NSArray* results = [query findObjects];
     if ([results count] == 0) {
         UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"No Such User" message:@"Could not find a user for the pin you entered. Please try again." delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];

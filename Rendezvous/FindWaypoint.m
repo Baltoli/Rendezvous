@@ -52,7 +52,7 @@
 - (IBAction)findWaypoint:(id)sender {
     PFQuery* query = [PFQuery queryWithClassName:@"Waypoints"];
     [query whereKey:@"pin" equalTo:[pinEntry text]];
-    [query whereKey:@"type" equalTo:@"Waypoint"];
+    //[query whereKey:@"type" equalTo:@"Waypoint"];
     NSArray* results = [query findObjects];
     if ([results count] == 0) {
         UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"No Such Waypoint" message:@"Could not find a waypoint for the pin you entered. Please try again." delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
